@@ -1,0 +1,76 @@
+/*reset css*/
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+.main-contain{
+	width: 600px;
+/*	height: 500px;*/
+	background-color: #E8EAED;
+/*	border: 1px solid black;*/
+	margin: 10px;
+}
+
+/*khối tin chính*/
+article.tin{
+	padding: 10px;
+	background-color: white;
+	width: 600px;
+	display: block;
+	overflow: hidden;
+}
+.hinh{
+	width: 80%;
+}
+.main-contain h3{
+	color: white;
+	background-color: red;
+	width: 14.5%;
+}
+.link-image{
+	display: block;
+	margin-bottom: 5px;
+}
+.link-new{
+	display: block;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: arial;
+/*	text-align: center;*/
+}
+a.link-new:hover{
+	color: orange;
+}
+
+/*khối tin phụ*/
+div.khoi-tin-phu{
+	width: 180px;
+	float: left;
+	margin-right: 13px;
+}
+div.khoi-tin-phu p{
+	color: red;
+	font-size: 15px;
+	font-style: italic;
+}
+a.link-phu{
+	text-decoration: none;
+}
+a.link-phu:hover{
+	color: red;
+}
+div.tieu-de{
+	color: red;
+	border-bottom: 3px solid red;
+	font-weight: bold;
+	font-family: arial;
+}
+.video-youtube{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}	
